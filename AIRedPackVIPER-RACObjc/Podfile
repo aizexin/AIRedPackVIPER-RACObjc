@@ -1,0 +1,5 @@
+target ‘AIRedPackVIPER-RACObjc’ do
+    pod 'ReactiveObjC'
+    pod 'Masonry'
+    pod 'YYText'
+end

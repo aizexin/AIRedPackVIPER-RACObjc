@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AIShowSendPackRoute.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   
+    AIShowSendPackRoute *route = [[AIShowSendPackRoute alloc]init];
+    self.window = [[UIWindow alloc]init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [route presentGroupSendPackViewController:self.window conversationId:0];
+
     return YES;
 }
 

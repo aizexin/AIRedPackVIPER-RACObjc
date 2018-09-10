@@ -7,9 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CBBAC6D345D429BEE409AF1 /* libPods-AIRedPackVIPER-RACObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 464E08F3447845AC4F746CA4 /* libPods-AIRedPackVIPER-RACObjc.a */; };
+		451131CC2146AAFC0040CA41 /* AISendPackRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4511319B2146AAFC0040CA41 /* AISendPackRoute.m */; };
+		451131CD2146AAFC0040CA41 /* AIShowSendPackRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4511319C2146AAFC0040CA41 /* AIShowSendPackRoute.m */; };
+		451131CE2146AAFC0040CA41 /* AISendPackEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131A12146AAFC0040CA41 /* AISendPackEntity.m */; };
+		451131CF2146AAFC0040CA41 /* AISendPackConfigEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131A42146AAFC0040CA41 /* AISendPackConfigEntity.m */; };
+		451131D02146AAFC0040CA41 /* AISendPackPresneter.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131A82146AAFC0040CA41 /* AISendPackPresneter.m */; };
+		451131D12146AAFC0040CA41 /* AISendPackNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131AA2146AAFC0040CA41 /* AISendPackNetworkManager.m */; };
+		451131D22146AAFC0040CA41 /* AIGroupSendPackHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131AD2146AAFC0040CA41 /* AIGroupSendPackHeaderView.m */; };
+		451131D32146AAFC0040CA41 /* AISingleSendPackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131AE2146AAFC0040CA41 /* AISingleSendPackViewController.m */; };
+		451131D42146AAFC0040CA41 /* AIBaseSendPackCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131B02146AAFC0040CA41 /* AIBaseSendPackCellModel.m */; };
+		451131D52146AAFC0040CA41 /* AIGreetingCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131B32146AAFC0040CA41 /* AIGreetingCellModel.m */; };
+		451131D62146AAFC0040CA41 /* AIGroupSendRedPackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131B42146AAFC0040CA41 /* AIGroupSendRedPackModel.m */; };
+		451131D72146AAFC0040CA41 /* AIRedPackCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131B82146AAFC0040CA41 /* AIRedPackCellModel.m */; };
+		451131D82146AAFC0040CA41 /* AISendPackFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131BA2146AAFC0040CA41 /* AISendPackFooterView.m */; };
+		451131D92146AAFC0040CA41 /* AIRedPackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131BB2146AAFC0040CA41 /* AIRedPackTableViewCell.m */; };
+		451131DA2146AAFC0040CA41 /* AIGroupSendPackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131BC2146AAFC0040CA41 /* AIGroupSendPackViewController.m */; };
+		451131DB2146AAFC0040CA41 /* AIBaseSendPackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131BE2146AAFC0040CA41 /* AIBaseSendPackViewController.m */; };
+		451131DC2146AAFC0040CA41 /* AIGreetingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131C02146AAFC0040CA41 /* AIGreetingTableViewCell.m */; };
+		451131DD2146AAFC0040CA41 /* AISendPackSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131C62146AAFC0040CA41 /* AISendPackSectionHeaderView.m */; };
+		451131DE2146AAFC0040CA41 /* AISendPackInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131C92146AAFC0040CA41 /* AISendPackInteractor.m */; };
+		451131E22146B61A0040CA41 /* AIScaleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131E12146B61A0040CA41 /* AIScaleTool.m */; };
+		451131E52147C1060040CA41 /* AITransferPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131E42147C1060040CA41 /* AITransferPasswordView.m */; };
+		451131EA2147C2790040CA41 /* TGPasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131E72147C2790040CA41 /* TGPasswordTextField.m */; };
+		451131EB2147C2790040CA41 /* TGPasswordFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451131E92147C2790040CA41 /* TGPasswordFieldView.m */; };
+		45878E6A2147CC3500046BC2 /* RegexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45878E692147CC3500046BC2 /* RegexManager.m */; };
 		45EA0D7D2146A702003DAAC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EA0D7C2146A702003DAAC3 /* AppDelegate.m */; };
-		45EA0D802146A702003DAAC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EA0D7F2146A702003DAAC3 /* ViewController.m */; };
-		45EA0D832146A702003DAAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EA0D812146A702003DAAC3 /* Main.storyboard */; };
 		45EA0D852146A706003DAAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EA0D842146A706003DAAC3 /* Assets.xcassets */; };
 		45EA0D882146A706003DAAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EA0D862146A706003DAAC3 /* LaunchScreen.storyboard */; };
 		45EA0D8B2146A706003DAAC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EA0D8A2146A706003DAAC3 /* main.m */; };
@@ -35,12 +58,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1356C6C98EA964783D20B866 /* Pods-AIRedPackVIPER-RACObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIRedPackVIPER-RACObjc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIRedPackVIPER-RACObjc/Pods-AIRedPackVIPER-RACObjc.debug.xcconfig"; sourceTree = "<group>"; };
+		4511319A2146AAFC0040CA41 /* AIShowSendPackRouteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIShowSendPackRouteProtocol.h; sourceTree = "<group>"; };
+		4511319B2146AAFC0040CA41 /* AISendPackRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISendPackRoute.m; sourceTree = "<group>"; };
+		4511319C2146AAFC0040CA41 /* AIShowSendPackRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIShowSendPackRoute.m; sourceTree = "<group>"; };
+		4511319D2146AAFC0040CA41 /* AIShowSendPackRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIShowSendPackRoute.h; sourceTree = "<group>"; };
+		4511319E2146AAFC0040CA41 /* AISendPackRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackRoute.h; sourceTree = "<group>"; };
+		4511319F2146AAFC0040CA41 /* AISendPackRouteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackRouteProtocol.h; sourceTree = "<group>"; };
+		451131A12146AAFC0040CA41 /* AISendPackEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISendPackEntity.m; sourceTree = "<group>"; };
+		451131A22146AAFC0040CA41 /* AISendPackConfigEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackConfigEntity.h; sourceTree = "<group>"; };
+		451131A32146AAFC0040CA41 /* AISendPackEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackEntity.h; sourceTree = "<group>"; };
+		451131A42146AAFC0040CA41 /* AISendPackConfigEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISendPackConfigEntity.m; sourceTree = "<group>"; };
+		451131A62146AAFC0040CA41 /* AISendPackPresneter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackPresneter.h; sourceTree = "<group>"; };
+		451131A72146AAFC0040CA41 /* AISendPackPresenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackPresenterProtocol.h; sourceTree = "<group>"; };
+		451131A82146AAFC0040CA41 /* AISendPackPresneter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISendPackPresneter.m; sourceTree = "<group>"; };
+		451131AA2146AAFC0040CA41 /* AISendPackNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISendPackNetworkManager.m; sourceTree = "<group>"; };
+		451131AB2146AAFC0040CA41 /* AISendPackNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackNetworkManager.h; sourceTree = "<group>"; };
+		451131AD2146AAFC0040CA41 /* AIGroupSendPackHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIGroupSendPackHeaderView.m; sourceTree = "<group>"; };
+		451131AE2146AAFC0040CA41 /* AISingleSendPackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISingleSendPackViewController.m; sourceTree = "<group>"; };
+		451131B02146AAFC0040CA41 /* AIBaseSendPackCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIBaseSendPackCellModel.m; sourceTree = "<group>"; };
+		451131B12146AAFC0040CA41 /* AIGroupSendRedPackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIGroupSendRedPackModel.h; sourceTree = "<group>"; };
+		451131B22146AAFC0040CA41 /* AIRedPackCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRedPackCellModel.h; sourceTree = "<group>"; };
+		451131B32146AAFC0040CA41 /* AIGreetingCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIGreetingCellModel.m; sourceTree = "<group>"; };
+		451131B42146AAFC0040CA41 /* AIGroupSendRedPackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIGroupSendRedPackModel.m; sourceTree = "<group>"; };
+		451131B52146AAFC0040CA41 /* AIBaseSendPackCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIBaseSendPackCellModel.h; sourceTree = "<group>"; };
+		451131B62146AAFC0040CA41 /* AISendPackEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackEnum.h; sourceTree = "<group>"; };
+		451131B72146AAFC0040CA41 /* AIGreetingCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIGreetingCellModel.h; sourceTree = "<group>"; };
+		451131B82146AAFC0040CA41 /* AIRedPackCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRedPackCellModel.m; sourceTree = "<group>"; };
+		451131B92146AAFC0040CA41 /* AIGreetingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIGreetingTableViewCell.h; sourceTree = "<group>"; };
+		451131BA2146AAFC0040CA41 /* AISendPackFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISendPackFooterView.m; sourceTree = "<group>"; };
+		451131BB2146AAFC0040CA41 /* AIRedPackTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRedPackTableViewCell.m; sourceTree = "<group>"; };
+		451131BC2146AAFC0040CA41 /* AIGroupSendPackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIGroupSendPackViewController.m; sourceTree = "<group>"; };
+		451131BD2146AAFC0040CA41 /* AISendPackSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackSectionHeaderView.h; sourceTree = "<group>"; };
+		451131BE2146AAFC0040CA41 /* AIBaseSendPackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIBaseSendPackViewController.m; sourceTree = "<group>"; };
+		451131BF2146AAFC0040CA41 /* AISendPackFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackFooterView.h; sourceTree = "<group>"; };
+		451131C02146AAFC0040CA41 /* AIGreetingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIGreetingTableViewCell.m; sourceTree = "<group>"; };
+		451131C12146AAFC0040CA41 /* AIGroupSendPackHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIGroupSendPackHeaderView.h; sourceTree = "<group>"; };
+		451131C22146AAFC0040CA41 /* AISingleSendPackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISingleSendPackViewController.h; sourceTree = "<group>"; };
+		451131C32146AAFC0040CA41 /* AISendPackViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackViewProtocol.h; sourceTree = "<group>"; };
+		451131C42146AAFC0040CA41 /* AIRedPackTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRedPackTableViewCell.h; sourceTree = "<group>"; };
+		451131C52146AAFC0040CA41 /* AIBaseSendPackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIBaseSendPackViewController.h; sourceTree = "<group>"; };
+		451131C62146AAFC0040CA41 /* AISendPackSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISendPackSectionHeaderView.m; sourceTree = "<group>"; };
+		451131C72146AAFC0040CA41 /* AIGroupSendPackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIGroupSendPackViewController.h; sourceTree = "<group>"; };
+		451131C92146AAFC0040CA41 /* AISendPackInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISendPackInteractor.m; sourceTree = "<group>"; };
+		451131CA2146AAFC0040CA41 /* AISendPackInteractorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackInteractorProtocol.h; sourceTree = "<group>"; };
+		451131CB2146AAFC0040CA41 /* AISendPackInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISendPackInteractor.h; sourceTree = "<group>"; };
+		451131DF2146B1300040CA41 /* AIRedPackVIPER-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIRedPackVIPER-PrefixHeader.pch"; sourceTree = "<group>"; };
+		451131E02146B61A0040CA41 /* AIScaleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIScaleTool.h; sourceTree = "<group>"; };
+		451131E12146B61A0040CA41 /* AIScaleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIScaleTool.m; sourceTree = "<group>"; };
+		451131E32147C1060040CA41 /* AITransferPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AITransferPasswordView.h; sourceTree = "<group>"; };
+		451131E42147C1060040CA41 /* AITransferPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AITransferPasswordView.m; sourceTree = "<group>"; };
+		451131E62147C2790040CA41 /* TGPasswordFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPasswordFieldView.h; sourceTree = "<group>"; };
+		451131E72147C2790040CA41 /* TGPasswordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPasswordTextField.m; sourceTree = "<group>"; };
+		451131E82147C2790040CA41 /* TGPasswordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPasswordTextField.h; sourceTree = "<group>"; };
+		451131E92147C2790040CA41 /* TGPasswordFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPasswordFieldView.m; sourceTree = "<group>"; };
+		45878E682147CC3500046BC2 /* RegexManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexManager.h; sourceTree = "<group>"; };
+		45878E692147CC3500046BC2 /* RegexManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexManager.m; sourceTree = "<group>"; };
 		45EA0D782146A702003DAAC3 /* AIRedPackVIPER-RACObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIRedPackVIPER-RACObjc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EA0D7B2146A702003DAAC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45EA0D7C2146A702003DAAC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		45EA0D7E2146A702003DAAC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		45EA0D7F2146A702003DAAC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		45EA0D822146A702003DAAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45EA0D842146A706003DAAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45EA0D872146A706003DAAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45EA0D892146A706003DAAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +127,8 @@
 		45EA0D9B2146A707003DAAC3 /* AIRedPackVIPER-RACObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AIRedPackVIPER-RACObjcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EA0D9F2146A707003DAAC3 /* AIRedPackVIPER_RACObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRedPackVIPER_RACObjcUITests.m; sourceTree = "<group>"; };
 		45EA0DA12146A707003DAAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464E08F3447845AC4F746CA4 /* libPods-AIRedPackVIPER-RACObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AIRedPackVIPER-RACObjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA44D18751A8256B6B98A2A6 /* Pods-AIRedPackVIPER-RACObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIRedPackVIPER-RACObjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIRedPackVIPER-RACObjc/Pods-AIRedPackVIPER-RACObjc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CBBAC6D345D429BEE409AF1 /* libPods-AIRedPackVIPER-RACObjc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +157,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		451131982146AAFC0040CA41 /* AISendRedPack */ = {
+			isa = PBXGroup;
+			children = (
+				451131992146AAFC0040CA41 /* Route */,
+				451131A02146AAFC0040CA41 /* Entity */,
+				451131A52146AAFC0040CA41 /* Presenter */,
+				451131A92146AAFC0040CA41 /* Network */,
+				451131AC2146AAFC0040CA41 /* View */,
+				451131C82146AAFC0040CA41 /* Interactor */,
+			);
+			path = AISendRedPack;
+			sourceTree = "<group>";
+		};
+		451131992146AAFC0040CA41 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				4511319A2146AAFC0040CA41 /* AIShowSendPackRouteProtocol.h */,
+				4511319D2146AAFC0040CA41 /* AIShowSendPackRoute.h */,
+				4511319C2146AAFC0040CA41 /* AIShowSendPackRoute.m */,
+				4511319E2146AAFC0040CA41 /* AISendPackRoute.h */,
+				4511319B2146AAFC0040CA41 /* AISendPackRoute.m */,
+				4511319F2146AAFC0040CA41 /* AISendPackRouteProtocol.h */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		451131A02146AAFC0040CA41 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				451131A32146AAFC0040CA41 /* AISendPackEntity.h */,
+				451131A12146AAFC0040CA41 /* AISendPackEntity.m */,
+				451131A22146AAFC0040CA41 /* AISendPackConfigEntity.h */,
+				451131A42146AAFC0040CA41 /* AISendPackConfigEntity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		451131A52146AAFC0040CA41 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				451131A72146AAFC0040CA41 /* AISendPackPresenterProtocol.h */,
+				451131A62146AAFC0040CA41 /* AISendPackPresneter.h */,
+				451131A82146AAFC0040CA41 /* AISendPackPresneter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		451131A92146AAFC0040CA41 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				451131AB2146AAFC0040CA41 /* AISendPackNetworkManager.h */,
+				451131AA2146AAFC0040CA41 /* AISendPackNetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		451131AC2146AAFC0040CA41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				451131C52146AAFC0040CA41 /* AIBaseSendPackViewController.h */,
+				451131BE2146AAFC0040CA41 /* AIBaseSendPackViewController.m */,
+				451131B92146AAFC0040CA41 /* AIGreetingTableViewCell.h */,
+				451131C02146AAFC0040CA41 /* AIGreetingTableViewCell.m */,
+				451131C12146AAFC0040CA41 /* AIGroupSendPackHeaderView.h */,
+				451131AD2146AAFC0040CA41 /* AIGroupSendPackHeaderView.m */,
+				451131C72146AAFC0040CA41 /* AIGroupSendPackViewController.h */,
+				451131BC2146AAFC0040CA41 /* AIGroupSendPackViewController.m */,
+				451131C42146AAFC0040CA41 /* AIRedPackTableViewCell.h */,
+				451131BB2146AAFC0040CA41 /* AIRedPackTableViewCell.m */,
+				451131BF2146AAFC0040CA41 /* AISendPackFooterView.h */,
+				451131BA2146AAFC0040CA41 /* AISendPackFooterView.m */,
+				451131BD2146AAFC0040CA41 /* AISendPackSectionHeaderView.h */,
+				451131C62146AAFC0040CA41 /* AISendPackSectionHeaderView.m */,
+				451131C32146AAFC0040CA41 /* AISendPackViewProtocol.h */,
+				451131C22146AAFC0040CA41 /* AISingleSendPackViewController.h */,
+				451131AE2146AAFC0040CA41 /* AISingleSendPackViewController.m */,
+				451131E32147C1060040CA41 /* AITransferPasswordView.h */,
+				451131E42147C1060040CA41 /* AITransferPasswordView.m */,
+				451131E62147C2790040CA41 /* TGPasswordFieldView.h */,
+				451131E92147C2790040CA41 /* TGPasswordFieldView.m */,
+				451131E82147C2790040CA41 /* TGPasswordTextField.h */,
+				451131E72147C2790040CA41 /* TGPasswordTextField.m */,
+				451131AF2146AAFC0040CA41 /* ViewModel */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		451131AF2146AAFC0040CA41 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				451131B52146AAFC0040CA41 /* AIBaseSendPackCellModel.h */,
+				451131B02146AAFC0040CA41 /* AIBaseSendPackCellModel.m */,
+				451131B72146AAFC0040CA41 /* AIGreetingCellModel.h */,
+				451131B32146AAFC0040CA41 /* AIGreetingCellModel.m */,
+				451131B12146AAFC0040CA41 /* AIGroupSendRedPackModel.h */,
+				451131B42146AAFC0040CA41 /* AIGroupSendRedPackModel.m */,
+				451131B22146AAFC0040CA41 /* AIRedPackCellModel.h */,
+				451131B82146AAFC0040CA41 /* AIRedPackCellModel.m */,
+				451131B62146AAFC0040CA41 /* AISendPackEnum.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		451131C82146AAFC0040CA41 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				451131CB2146AAFC0040CA41 /* AISendPackInteractor.h */,
+				451131C92146AAFC0040CA41 /* AISendPackInteractor.m */,
+				451131CA2146AAFC0040CA41 /* AISendPackInteractorProtocol.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		45EA0D6F2146A701003DAAC3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +277,8 @@
 				45EA0D932146A707003DAAC3 /* AIRedPackVIPER-RACObjcTests */,
 				45EA0D9E2146A707003DAAC3 /* AIRedPackVIPER-RACObjcUITests */,
 				45EA0D792146A702003DAAC3 /* Products */,
+				69000B1525BB285F468F19AA /* Pods */,
+				6CFBEFB5F923A4C13AE2CDFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +295,18 @@
 		45EA0D7A2146A702003DAAC3 /* AIRedPackVIPER-RACObjc */ = {
 			isa = PBXGroup;
 			children = (
+				451131982146AAFC0040CA41 /* AISendRedPack */,
 				45EA0D7B2146A702003DAAC3 /* AppDelegate.h */,
 				45EA0D7C2146A702003DAAC3 /* AppDelegate.m */,
-				45EA0D7E2146A702003DAAC3 /* ViewController.h */,
-				45EA0D7F2146A702003DAAC3 /* ViewController.m */,
-				45EA0D812146A702003DAAC3 /* Main.storyboard */,
 				45EA0D842146A706003DAAC3 /* Assets.xcassets */,
 				45EA0D862146A706003DAAC3 /* LaunchScreen.storyboard */,
 				45EA0D892146A706003DAAC3 /* Info.plist */,
 				45EA0D8A2146A706003DAAC3 /* main.m */,
+				451131E02146B61A0040CA41 /* AIScaleTool.h */,
+				451131E12146B61A0040CA41 /* AIScaleTool.m */,
+				45878E682147CC3500046BC2 /* RegexManager.h */,
+				45878E692147CC3500046BC2 /* RegexManager.m */,
+				451131DF2146B1300040CA41 /* AIRedPackVIPER-PrefixHeader.pch */,
 			);
 			path = "AIRedPackVIPER-RACObjc";
 			sourceTree = "<group>";
@@ -132,6 +329,23 @@
 			path = "AIRedPackVIPER-RACObjcUITests";
 			sourceTree = "<group>";
 		};
+		69000B1525BB285F468F19AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1356C6C98EA964783D20B866 /* Pods-AIRedPackVIPER-RACObjc.debug.xcconfig */,
+				BA44D18751A8256B6B98A2A6 /* Pods-AIRedPackVIPER-RACObjc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CFBEFB5F923A4C13AE2CDFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				464E08F3447845AC4F746CA4 /* libPods-AIRedPackVIPER-RACObjc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +353,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45EA0DA42146A707003DAAC3 /* Build configuration list for PBXNativeTarget "AIRedPackVIPER-RACObjc" */;
 			buildPhases = (
+				938D3D8FD4B9E89DCD6B235D /* [CP] Check Pods Manifest.lock */,
 				45EA0D742146A701003DAAC3 /* Sources */,
 				45EA0D752146A701003DAAC3 /* Frameworks */,
 				45EA0D762146A701003DAAC3 /* Resources */,
@@ -237,7 +452,6 @@
 			files = (
 				45EA0D882146A706003DAAC3 /* LaunchScreen.storyboard in Resources */,
 				45EA0D852146A706003DAAC3 /* Assets.xcassets in Resources */,
-				45EA0D832146A702003DAAC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +471,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		938D3D8FD4B9E89DCD6B235D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIRedPackVIPER-RACObjc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45EA0D742146A701003DAAC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45EA0D802146A702003DAAC3 /* ViewController.m in Sources */,
+				451131E22146B61A0040CA41 /* AIScaleTool.m in Sources */,
+				451131CF2146AAFC0040CA41 /* AISendPackConfigEntity.m in Sources */,
+				451131D12146AAFC0040CA41 /* AISendPackNetworkManager.m in Sources */,
 				45EA0D8B2146A706003DAAC3 /* main.m in Sources */,
+				451131D02146AAFC0040CA41 /* AISendPackPresneter.m in Sources */,
+				451131DE2146AAFC0040CA41 /* AISendPackInteractor.m in Sources */,
+				451131D32146AAFC0040CA41 /* AISingleSendPackViewController.m in Sources */,
+				451131DD2146AAFC0040CA41 /* AISendPackSectionHeaderView.m in Sources */,
+				451131CC2146AAFC0040CA41 /* AISendPackRoute.m in Sources */,
+				451131D22146AAFC0040CA41 /* AIGroupSendPackHeaderView.m in Sources */,
 				45EA0D7D2146A702003DAAC3 /* AppDelegate.m in Sources */,
+				451131D92146AAFC0040CA41 /* AIRedPackTableViewCell.m in Sources */,
+				451131DC2146AAFC0040CA41 /* AIGreetingTableViewCell.m in Sources */,
+				451131DB2146AAFC0040CA41 /* AIBaseSendPackViewController.m in Sources */,
+				451131CD2146AAFC0040CA41 /* AIShowSendPackRoute.m in Sources */,
+				451131D72146AAFC0040CA41 /* AIRedPackCellModel.m in Sources */,
+				451131D62146AAFC0040CA41 /* AIGroupSendRedPackModel.m in Sources */,
+				451131D52146AAFC0040CA41 /* AIGreetingCellModel.m in Sources */,
+				451131CE2146AAFC0040CA41 /* AISendPackEntity.m in Sources */,
+				451131E52147C1060040CA41 /* AITransferPasswordView.m in Sources */,
+				451131D82146AAFC0040CA41 /* AISendPackFooterView.m in Sources */,
+				45878E6A2147CC3500046BC2 /* RegexManager.m in Sources */,
+				451131D42146AAFC0040CA41 /* AIBaseSendPackCellModel.m in Sources */,
+				451131DA2146AAFC0040CA41 /* AIGroupSendPackViewController.m in Sources */,
+				451131EA2147C2790040CA41 /* TGPasswordTextField.m in Sources */,
+				451131EB2147C2790040CA41 /* TGPasswordFieldView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +558,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		45EA0D812146A702003DAAC3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45EA0D822146A702003DAAC3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		45EA0D862146A706003DAAC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,10 +681,13 @@
 		};
 		45EA0DA52146A707003DAAC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1356C6C98EA964783D20B866 /* Pods-AIRedPackVIPER-RACObjc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y56852HD87;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AIRedPackVIPER-RACObjc/AIRedPackVIPER-PrefixHeader.pch";
 				INFOPLIST_FILE = "AIRedPackVIPER-RACObjc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +701,13 @@
 		};
 		45EA0DA62146A707003DAAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA44D18751A8256B6B98A2A6 /* Pods-AIRedPackVIPER-RACObjc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y56852HD87;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AIRedPackVIPER-RACObjc/AIRedPackVIPER-PrefixHeader.pch";
 				INFOPLIST_FILE = "AIRedPackVIPER-RACObjc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
