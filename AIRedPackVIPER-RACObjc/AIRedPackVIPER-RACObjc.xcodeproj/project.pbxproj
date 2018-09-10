@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45EA0D7D2146A702003DAAC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EA0D7C2146A702003DAAC3 /* AppDelegate.m */; };
+		45EA0D802146A702003DAAC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EA0D7F2146A702003DAAC3 /* ViewController.m */; };
+		45EA0D832146A702003DAAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EA0D812146A702003DAAC3 /* Main.storyboard */; };
+		45EA0D852146A706003DAAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EA0D842146A706003DAAC3 /* Assets.xcassets */; };
+		45EA0D882146A706003DAAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EA0D862146A706003DAAC3 /* LaunchScreen.storyboard */; };
+		45EA0D8B2146A706003DAAC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EA0D8A2146A706003DAAC3 /* main.m */; };
+		45EA0D952146A707003DAAC3 /* AIRedPackVIPER_RACObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EA0D942146A707003DAAC3 /* AIRedPackVIPER_RACObjcTests.m */; };
+		45EA0DA02146A707003DAAC3 /* AIRedPackVIPER_RACObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EA0D9F2146A707003DAAC3 /* AIRedPackVIPER_RACObjcUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45EA0D912146A707003DAAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45EA0D702146A701003DAAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45EA0D772146A701003DAAC3;
+			remoteInfo = "AIRedPackVIPER-RACObjc";
+		};
+		45EA0D9C2146A707003DAAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45EA0D702146A701003DAAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45EA0D772146A701003DAAC3;
+			remoteInfo = "AIRedPackVIPER-RACObjc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45EA0D782146A702003DAAC3 /* AIRedPackVIPER-RACObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIRedPackVIPER-RACObjc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EA0D7B2146A702003DAAC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45EA0D7C2146A702003DAAC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45EA0D7E2146A702003DAAC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45EA0D7F2146A702003DAAC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45EA0D822146A702003DAAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45EA0D842146A706003DAAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45EA0D872146A706003DAAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45EA0D892146A706003DAAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45EA0D8A2146A706003DAAC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45EA0D902146A707003DAAC3 /* AIRedPackVIPER-RACObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AIRedPackVIPER-RACObjcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EA0D942146A707003DAAC3 /* AIRedPackVIPER_RACObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRedPackVIPER_RACObjcTests.m; sourceTree = "<group>"; };
+		45EA0D962146A707003DAAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45EA0D9B2146A707003DAAC3 /* AIRedPackVIPER-RACObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AIRedPackVIPER-RACObjcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EA0D9F2146A707003DAAC3 /* AIRedPackVIPER_RACObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRedPackVIPER_RACObjcUITests.m; sourceTree = "<group>"; };
+		45EA0DA12146A707003DAAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45EA0D752146A701003DAAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EA0D8D2146A707003DAAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EA0D982146A707003DAAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45EA0D6F2146A701003DAAC3 = {
+			isa = PBXGroup;
+			children = (
+				45EA0D7A2146A702003DAAC3 /* AIRedPackVIPER-RACObjc */,
+				45EA0D932146A707003DAAC3 /* AIRedPackVIPER-RACObjcTests */,
+				45EA0D9E2146A707003DAAC3 /* AIRedPackVIPER-RACObjcUITests */,
+				45EA0D792146A702003DAAC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45EA0D792146A702003DAAC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45EA0D782146A702003DAAC3 /* AIRedPackVIPER-RACObjc.app */,
+				45EA0D902146A707003DAAC3 /* AIRedPackVIPER-RACObjcTests.xctest */,
+				45EA0D9B2146A707003DAAC3 /* AIRedPackVIPER-RACObjcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45EA0D7A2146A702003DAAC3 /* AIRedPackVIPER-RACObjc */ = {
+			isa = PBXGroup;
+			children = (
+				45EA0D7B2146A702003DAAC3 /* AppDelegate.h */,
+				45EA0D7C2146A702003DAAC3 /* AppDelegate.m */,
+				45EA0D7E2146A702003DAAC3 /* ViewController.h */,
+				45EA0D7F2146A702003DAAC3 /* ViewController.m */,
+				45EA0D812146A702003DAAC3 /* Main.storyboard */,
+				45EA0D842146A706003DAAC3 /* Assets.xcassets */,
+				45EA0D862146A706003DAAC3 /* LaunchScreen.storyboard */,
+				45EA0D892146A706003DAAC3 /* Info.plist */,
+				45EA0D8A2146A706003DAAC3 /* main.m */,
+			);
+			path = "AIRedPackVIPER-RACObjc";
+			sourceTree = "<group>";
+		};
+		45EA0D932146A707003DAAC3 /* AIRedPackVIPER-RACObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				45EA0D942146A707003DAAC3 /* AIRedPackVIPER_RACObjcTests.m */,
+				45EA0D962146A707003DAAC3 /* Info.plist */,
+			);
+			path = "AIRedPackVIPER-RACObjcTests";
+			sourceTree = "<group>";
+		};
+		45EA0D9E2146A707003DAAC3 /* AIRedPackVIPER-RACObjcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45EA0D9F2146A707003DAAC3 /* AIRedPackVIPER_RACObjcUITests.m */,
+				45EA0DA12146A707003DAAC3 /* Info.plist */,
+			);
+			path = "AIRedPackVIPER-RACObjcUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45EA0D772146A701003DAAC3 /* AIRedPackVIPER-RACObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EA0DA42146A707003DAAC3 /* Build configuration list for PBXNativeTarget "AIRedPackVIPER-RACObjc" */;
+			buildPhases = (
+				45EA0D742146A701003DAAC3 /* Sources */,
+				45EA0D752146A701003DAAC3 /* Frameworks */,
+				45EA0D762146A701003DAAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AIRedPackVIPER-RACObjc";
+			productName = "AIRedPackVIPER-RACObjc";
+			productReference = 45EA0D782146A702003DAAC3 /* AIRedPackVIPER-RACObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45EA0D8F2146A707003DAAC3 /* AIRedPackVIPER-RACObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EA0DA72146A707003DAAC3 /* Build configuration list for PBXNativeTarget "AIRedPackVIPER-RACObjcTests" */;
+			buildPhases = (
+				45EA0D8C2146A707003DAAC3 /* Sources */,
+				45EA0D8D2146A707003DAAC3 /* Frameworks */,
+				45EA0D8E2146A707003DAAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45EA0D922146A707003DAAC3 /* PBXTargetDependency */,
+			);
+			name = "AIRedPackVIPER-RACObjcTests";
+			productName = "AIRedPackVIPER-RACObjcTests";
+			productReference = 45EA0D902146A707003DAAC3 /* AIRedPackVIPER-RACObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45EA0D9A2146A707003DAAC3 /* AIRedPackVIPER-RACObjcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EA0DAA2146A707003DAAC3 /* Build configuration list for PBXNativeTarget "AIRedPackVIPER-RACObjcUITests" */;
+			buildPhases = (
+				45EA0D972146A707003DAAC3 /* Sources */,
+				45EA0D982146A707003DAAC3 /* Frameworks */,
+				45EA0D992146A707003DAAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45EA0D9D2146A707003DAAC3 /* PBXTargetDependency */,
+			);
+			name = "AIRedPackVIPER-RACObjcUITests";
+			productName = "AIRedPackVIPER-RACObjcUITests";
+			productReference = 45EA0D9B2146A707003DAAC3 /* AIRedPackVIPER-RACObjcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45EA0D702146A701003DAAC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "艾泽鑫";
+				TargetAttributes = {
+					45EA0D772146A701003DAAC3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					45EA0D8F2146A707003DAAC3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 45EA0D772146A701003DAAC3;
+					};
+					45EA0D9A2146A707003DAAC3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 45EA0D772146A701003DAAC3;
+					};
+				};
+			};
+			buildConfigurationList = 45EA0D732146A701003DAAC3 /* Build configuration list for PBXProject "AIRedPackVIPER-RACObjc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45EA0D6F2146A701003DAAC3;
+			productRefGroup = 45EA0D792146A702003DAAC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45EA0D772146A701003DAAC3 /* AIRedPackVIPER-RACObjc */,
+				45EA0D8F2146A707003DAAC3 /* AIRedPackVIPER-RACObjcTests */,
+				45EA0D9A2146A707003DAAC3 /* AIRedPackVIPER-RACObjcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45EA0D762146A701003DAAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EA0D882146A706003DAAC3 /* LaunchScreen.storyboard in Resources */,
+				45EA0D852146A706003DAAC3 /* Assets.xcassets in Resources */,
+				45EA0D832146A702003DAAC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EA0D8E2146A707003DAAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EA0D992146A707003DAAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45EA0D742146A701003DAAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EA0D802146A702003DAAC3 /* ViewController.m in Sources */,
+				45EA0D8B2146A706003DAAC3 /* main.m in Sources */,
+				45EA0D7D2146A702003DAAC3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EA0D8C2146A707003DAAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EA0D952146A707003DAAC3 /* AIRedPackVIPER_RACObjcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EA0D972146A707003DAAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EA0DA02146A707003DAAC3 /* AIRedPackVIPER_RACObjcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45EA0D922146A707003DAAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45EA0D772146A701003DAAC3 /* AIRedPackVIPER-RACObjc */;
+			targetProxy = 45EA0D912146A707003DAAC3 /* PBXContainerItemProxy */;
+		};
+		45EA0D9D2146A707003DAAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45EA0D772146A701003DAAC3 /* AIRedPackVIPER-RACObjc */;
+			targetProxy = 45EA0D9C2146A707003DAAC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45EA0D812146A702003DAAC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45EA0D822146A702003DAAC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45EA0D862146A706003DAAC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45EA0D872146A706003DAAC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45EA0DA22146A707003DAAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45EA0DA32146A707003DAAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45EA0DA52146A707003DAAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y56852HD87;
+				INFOPLIST_FILE = "AIRedPackVIPER-RACObjc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aizexin.AIRedPackVIPER-RACObjc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45EA0DA62146A707003DAAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y56852HD87;
+				INFOPLIST_FILE = "AIRedPackVIPER-RACObjc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aizexin.AIRedPackVIPER-RACObjc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45EA0DA82146A707003DAAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y56852HD87;
+				INFOPLIST_FILE = "AIRedPackVIPER-RACObjcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aizexin.AIRedPackVIPER-RACObjcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIRedPackVIPER-RACObjc.app/AIRedPackVIPER-RACObjc";
+			};
+			name = Debug;
+		};
+		45EA0DA92146A707003DAAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y56852HD87;
+				INFOPLIST_FILE = "AIRedPackVIPER-RACObjcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aizexin.AIRedPackVIPER-RACObjcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIRedPackVIPER-RACObjc.app/AIRedPackVIPER-RACObjc";
+			};
+			name = Release;
+		};
+		45EA0DAB2146A707003DAAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y56852HD87;
+				INFOPLIST_FILE = "AIRedPackVIPER-RACObjcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aizexin.AIRedPackVIPER-RACObjcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AIRedPackVIPER-RACObjc";
+			};
+			name = Debug;
+		};
+		45EA0DAC2146A707003DAAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y56852HD87;
+				INFOPLIST_FILE = "AIRedPackVIPER-RACObjcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aizexin.AIRedPackVIPER-RACObjcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AIRedPackVIPER-RACObjc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45EA0D732146A701003DAAC3 /* Build configuration list for PBXProject "AIRedPackVIPER-RACObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EA0DA22146A707003DAAC3 /* Debug */,
+				45EA0DA32146A707003DAAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EA0DA42146A707003DAAC3 /* Build configuration list for PBXNativeTarget "AIRedPackVIPER-RACObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EA0DA52146A707003DAAC3 /* Debug */,
+				45EA0DA62146A707003DAAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EA0DA72146A707003DAAC3 /* Build configuration list for PBXNativeTarget "AIRedPackVIPER-RACObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EA0DA82146A707003DAAC3 /* Debug */,
+				45EA0DA92146A707003DAAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EA0DAA2146A707003DAAC3 /* Build configuration list for PBXNativeTarget "AIRedPackVIPER-RACObjcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EA0DAB2146A707003DAAC3 /* Debug */,
+				45EA0DAC2146A707003DAAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45EA0D702146A701003DAAC3 /* Project object */;
+}
