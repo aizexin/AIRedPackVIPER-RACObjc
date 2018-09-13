@@ -125,6 +125,7 @@
                 AISendPackConfigEntity *config = [[AISendPackConfigEntity alloc]init];
                 config.redPacketSingleMoneyMin = [NSNumber numberWithFloat:1];
                 config.redPacketGroupMoneyMax  = [NSNumber numberWithFloat:20000];
+                config.payPassword             = @(1);
                 [subscriber sendNext:config];
             });
             return [RACDisposable disposableWithBlock:^{
@@ -240,35 +241,11 @@
 
 - (RACCommand*)commitRedPack {
     //TODO:网络请求提交红包
-    __weak typeof(self)weakSelf = self;
     return [[RACCommand alloc]initWithSignalBlock:^RACSignal * _Nonnull(NSString *password) {
         
         return [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
-            NSDictionary *payInfo = nil;
-            NSString *greeting    = self.resultEntity.greetings ? self.resultEntity.greetings : @"大吉大利";
-            payInfo = @{@"amount":@([self.resultEntity.totalMoney doubleValue]),
-                        @"total" :@([self.resultEntity.packNumber integerValue]),
-                        @"wishes":greeting
-                        };
-            AISendPackNetworkManager *manager = [AISendPackNetworkManager shareManager];
-            NSMutableDictionary *dataDic      = [NSMutableDictionary dictionaryWithDictionary:payInfo];
-            NSString *md5password             = password;
-            [dataDic setObject:md5password forKey:@"password"];
-            [dataDic setObject:@(weakSelf.resultEntity.type) forKey:@"type"];
-            manager.sendRedPacket(dataDic, ^(NSString *error, int64_t messageId) {
-                if (error) {
-                    NSError *err = [NSError errorWithDomain:@"diyerror" code:messageId userInfo:@{@"error":error}];
-                    [subscriber sendError:err];
-                    if (manager.sendRedPacketError) {
-                        manager.sendRedPacketError(messageId);
-                    }
-                } else {
-                    if (manager.sendRedPacketFinished) {
-                        manager.sendRedPacketFinished();
-                    }
-                    [subscriber sendNext:nil];
-                }
-            });
+            //这一部分是通过 网络处理发送红包
+            [subscriber sendNext:nil];
             return [RACDisposable disposableWithBlock:^{
                 
             }];
@@ -276,4 +253,7 @@
     }];
 }
 
+- (NSString*)getTotalMoney {
+    return self.resultEntity.totalMoney;
+}
 @end

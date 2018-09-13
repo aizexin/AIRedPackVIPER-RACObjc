@@ -178,7 +178,7 @@
     AITransferPasswordView *passwordView = [[AITransferPasswordView alloc]init];
     self.passwordView  = passwordView;
     passwordView.type  = AITransferPassword_RedPacket;
-    passwordView.money = @"---";
+    passwordView.money = [self.presenter getTotalMoney];
     passwordView.name  = @"xxx";//user.displayName;
     passwordView.alpha = 0.f;
     passwordView.delegate = self;

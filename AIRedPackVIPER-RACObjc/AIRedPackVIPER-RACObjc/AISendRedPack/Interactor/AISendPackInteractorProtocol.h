@@ -27,5 +27,7 @@
 -(RACChannelTerminal*)getPackNumberChannel;
 -(RACChannelTerminal*)getIsRandomPackChannel;
 -(RACChannelTerminal *)getOnePackMoneyChannel;
+
+- (NSString*)getTotalMoney;
 @end
 #endif /* AISendPackInteractorProtocol_h */

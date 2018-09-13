@@ -72,5 +72,7 @@
     [interactorChannel subscribe:channel];
     [channel subscribe:interactorChannel];
 }
-
+- (NSString*)getTotalMoney {
+    return [self.interactor getTotalMoney];
+}
 @end

@@ -21,7 +21,7 @@
 
 //控制interactor
 - (RACSignal*)loadConfig;
-
+- (NSString*)getTotalMoney;
 - (void)bindTotalMoney:(RACChannelTerminal*)channel;
 - (void)bindGreeting:(RACChannelTerminal*)channel;
 - (void)bindTips:(RACChannelTerminal*)channel;
