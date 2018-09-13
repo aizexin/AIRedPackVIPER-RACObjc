@@ -216,29 +216,10 @@
 		451131AC2146AAFC0040CA41 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				451131C52146AAFC0040CA41 /* AIBaseSendPackViewController.h */,
-				451131BE2146AAFC0040CA41 /* AIBaseSendPackViewController.m */,
-				451131B92146AAFC0040CA41 /* AIGreetingTableViewCell.h */,
-				451131C02146AAFC0040CA41 /* AIGreetingTableViewCell.m */,
-				451131C12146AAFC0040CA41 /* AIGroupSendPackHeaderView.h */,
-				451131AD2146AAFC0040CA41 /* AIGroupSendPackHeaderView.m */,
-				451131C72146AAFC0040CA41 /* AIGroupSendPackViewController.h */,
-				451131BC2146AAFC0040CA41 /* AIGroupSendPackViewController.m */,
-				451131C42146AAFC0040CA41 /* AIRedPackTableViewCell.h */,
-				451131BB2146AAFC0040CA41 /* AIRedPackTableViewCell.m */,
-				451131BF2146AAFC0040CA41 /* AISendPackFooterView.h */,
-				451131BA2146AAFC0040CA41 /* AISendPackFooterView.m */,
-				451131BD2146AAFC0040CA41 /* AISendPackSectionHeaderView.h */,
-				451131C62146AAFC0040CA41 /* AISendPackSectionHeaderView.m */,
 				451131C32146AAFC0040CA41 /* AISendPackViewProtocol.h */,
-				451131C22146AAFC0040CA41 /* AISingleSendPackViewController.h */,
-				451131AE2146AAFC0040CA41 /* AISingleSendPackViewController.m */,
-				451131E32147C1060040CA41 /* AITransferPasswordView.h */,
-				451131E42147C1060040CA41 /* AITransferPasswordView.m */,
-				451131E62147C2790040CA41 /* TGPasswordFieldView.h */,
-				451131E92147C2790040CA41 /* TGPasswordFieldView.m */,
-				451131E82147C2790040CA41 /* TGPasswordTextField.h */,
-				451131E72147C2790040CA41 /* TGPasswordTextField.m */,
+				45878E6C214AA89400046BC2 /* Controller */,
+				45878E6D214AA8BC00046BC2 /* Cell */,
+				45878E6E214AA8D300046BC2 /* View */,
 				451131AF2146AAFC0040CA41 /* ViewModel */,
 			);
 			path = View;
@@ -268,6 +249,49 @@
 				451131CA2146AAFC0040CA41 /* AISendPackInteractorProtocol.h */,
 			);
 			path = Interactor;
+			sourceTree = "<group>";
+		};
+		45878E6C214AA89400046BC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				451131C52146AAFC0040CA41 /* AIBaseSendPackViewController.h */,
+				451131BE2146AAFC0040CA41 /* AIBaseSendPackViewController.m */,
+				451131C72146AAFC0040CA41 /* AIGroupSendPackViewController.h */,
+				451131BC2146AAFC0040CA41 /* AIGroupSendPackViewController.m */,
+				451131C22146AAFC0040CA41 /* AISingleSendPackViewController.h */,
+				451131AE2146AAFC0040CA41 /* AISingleSendPackViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		45878E6D214AA8BC00046BC2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				451131B92146AAFC0040CA41 /* AIGreetingTableViewCell.h */,
+				451131C02146AAFC0040CA41 /* AIGreetingTableViewCell.m */,
+				451131C42146AAFC0040CA41 /* AIRedPackTableViewCell.h */,
+				451131BB2146AAFC0040CA41 /* AIRedPackTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		45878E6E214AA8D300046BC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				451131C12146AAFC0040CA41 /* AIGroupSendPackHeaderView.h */,
+				451131AD2146AAFC0040CA41 /* AIGroupSendPackHeaderView.m */,
+				451131BF2146AAFC0040CA41 /* AISendPackFooterView.h */,
+				451131BA2146AAFC0040CA41 /* AISendPackFooterView.m */,
+				451131BD2146AAFC0040CA41 /* AISendPackSectionHeaderView.h */,
+				451131C62146AAFC0040CA41 /* AISendPackSectionHeaderView.m */,
+				451131E32147C1060040CA41 /* AITransferPasswordView.h */,
+				451131E42147C1060040CA41 /* AITransferPasswordView.m */,
+				451131E62147C2790040CA41 /* TGPasswordFieldView.h */,
+				451131E92147C2790040CA41 /* TGPasswordFieldView.m */,
+				451131E82147C2790040CA41 /* TGPasswordTextField.h */,
+				451131E72147C2790040CA41 /* TGPasswordTextField.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		45EA0D6F2146A701003DAAC3 = {
